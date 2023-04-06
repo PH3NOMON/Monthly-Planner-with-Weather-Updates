@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="Stylesheet" href="Styler.css">
+    <link
+    href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+    <link rel="icon" href="icons/favicon.svg" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo"><img src="/images/logo.jpg" width="100" height="100"></div>
+        <div class="navbar__links">
+            <a href="#" class="navbar__link">Home</a>
+            <a href="#" class="navbar__link">Contact</a>
+            <a href="#" class="navbar__link">About</a>
+            <a href="#" class="navbar__link">Services</a>
+        </div>
+        
+    </nav>
+    <div class="main-grid">
+
+        <div class="batta">
+            <div class="calendar">
+                <div class="calendar__header">
+                    <button type="button" class="calendar__prev-button">&lt;</button>
+                    <h2 class="calendar__title">March 2023</h2>
+                    <button type="button" class="calendar__next-button">&gt;</button>
+                </div>
+                <div class="calendar__weekdays">
+                    <div class="calendar__weekday">Sun</div>
+                    <div class="calendar__weekday">Mon</div>
+                    <div class="calendar__weekday">Tue</div>
+                    <div class="calendar__weekday">Wed</div>
+                    <div class="calendar__weekday">Thu</div>
+                    <div class="calendar__weekday">Fri</div>
+                    <div class="calendar__weekday">Sat</div>
+                </div>
+                <div class="calendar__days">
+                    <div class="calendar__day" data-date="2023-03-01">1</div>
+                    <div class="calendar__day" data-date="2023-03-02">2</div>
+                    <div class="calendar__day" data-date="2023-03-03">3</div>
+                    <div class="calendar__day" data-date="2023-03-04">4</div>
+                    <div class="calendar__day" data-date="2023-03-05">5</div>
+                    <div class="calendar__day" data-date="2023-03-06">6</div>
+                    <div class="calendar__day" data-date="2023-03-07">7</div>
+                    <div class="calendar__day" data-date="2023-03-08">8</div>
+                    <div class="calendar__day" data-date="2023-03-09">9</div>
+                    <div class="calendar__day" data-date="2023-03-10">10</div>
+                    <div class="calendar__day" data-date="2023-03-11">11</div>
+                    <div class="calendar__day" data-date="2023-03-12">12</div>
+                    <div class="calendar__day" data-date="2023-03-13">13</div>
+                    <div class="calendar__day" data-date="2023-03-14">14</div>
+                    <div class="calendar__day" data-date="2023-03-15">15</div>
+                    <div class="calendar__day" data-date="2023-03-16">16</div>
+                    <div class="calendar__day" data-date="2023-03-17">17</div>
+                    <div class="calendar__day" data-date="2023-03-18">18</div>
+                    <div class="calendar__day" data-date="2023-03-19">19</div>
+                    <div class="calendar__day" data-date="2023-03-20">20</div>
+                    <div class="calendar__day" data-date="2023-03-21">21</div>
+                    <div class="calendar__day" data-date="2023-03-22">22</div>
+                    <div class="calendar__day" data-date="2023-03-23">23</div>
+                    <div class="calendar__day" data-date="2023-03-24">24</div>
+                    <div class="calendar__day" data-date="2023-03-25">25</div>
+                    <div class="calendar__day" data-date="2023-03-26">26</div>
+                    <div class="calendar__day" data-date="2023-03-27">27</div>
+                    <div class="calendar__day" data-date="2023-03-28">28</div>
+                    <div class="calendar__day" data-date="2023-03-29">29</div>
+                    <div class="calendar__day" data-date="2023-03-30">30</div>
+                    <div class="calendar__day" data-date="2023-03-31">31</div>
+                </div>
+
+            </div>
+        </div>
+            <div class="batta2">
+                <div class="wrapper">
+                    <header><i class="bx bx-left-arrow-alt"></i>Weather App for Today!</header>
+                    <section class="input-part">
+                        <p class="info-txt"></p>
+                        <div class="content">
+                            <input type="text" spellcheck="false" placeholder="Enter City Name" required />
+                            <div class="separator"></div>
+                            <button>Get your Location Hacked</button>
+                        </div>
+                    </section>
+                    <section class="weather-part">
+                        <img src="" alt="Weather Icon" />
+                        <div class="temp">
+                            <span class="numb">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <div class="weather">_ _</div>
+                        <div class="location">
+                            <i class="bx bx-map"></i>
+                            <span>_, _</span>
+                        </div>
+                        <div class="bottom-details">
+                            <div class="column feels">
+                                <i class="bx bxs-thermometer"></i>
+                                <div class="details">
+                                    <div class="temp">
+                                        <span class="numb-2">_</span>
+                                        <span class="deg">°</span>C
+                                    </div>
+                                    <p>Feels like</p>
+                                </div>
+                            </div>
+                            <div class="column humidity">
+                                <i class="bx bxs-droplet-half"></i>
+                                <div class="details">
+                                    <span>_</span>
+                                    <p>Humidity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        
+    </div>
+    <script src="index.js"></script>
+    <script src="js/api_key.js"></script>
+
+
+
+</body>
+
+</html>
