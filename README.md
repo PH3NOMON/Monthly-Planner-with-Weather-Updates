@@ -15,7 +15,9 @@ To run this application on your local machine, you need to have a web browser in
 
 **Copy code**
 
-git clone https://github.com/your-username/monthly-planner.git
+```bash
+ git clone https://github.com/PH3NOMON/Monthly-Planner-with-Weather-Updates.git
+```
 cd monthly-planner
 
 **Usage**
